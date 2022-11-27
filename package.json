@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/s-ieremenko/telegram_bot_weather_forecast.git"
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/s-ieremenko/telegram_bot_weather_forecast/issues"
   },
-  "homepage": "https://github.com/s-ieremenko/telegram_bot_weather_forecast#readme"
+  "homepage": "https://github.com/s-ieremenko/telegram_bot_weather_forecast#readme",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "dotenv": "^16.0.3"
+  }
 }
