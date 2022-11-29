@@ -1,5 +1,5 @@
 import { sendMessage } from "../../sendMessage.js";
-import { hoursOptions, options } from '../../options.js';
+import { hoursOptions } from '../../options.js';
 import { fetchData } from "../../fetchData.js";
 
 export const handler = async (event) => {
@@ -17,7 +17,7 @@ export const handler = async (event) => {
             }
             if (text === '/info') {
 
-                return sendMessage(id, 'hi', options.reply_markup)
+                return sendMessage(id, 'Weather in London', hoursOptions.reply_markup)
             }
 
 
